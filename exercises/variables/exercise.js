@@ -1,6 +1,8 @@
 var exercise      = require('workshopper-exercise')()
   , filecheck     = require('workshopper-exercise/filecheck')
-  , execute       = require('workshopper-exercise/execute')
+  // , execute       = require('workshopper-exercise/execute')
+  // Override the default executor
+  , execute       = require('../../execute')
   , comparestdout = require('workshopper-exercise/comparestdout')
 
 
@@ -15,13 +17,3 @@ exercise = comparestdout(exercise)
 
 
 module.exports = exercise
-
-// TODO: write a utility that takes a .scss file in input, renders it to CSS,
-// and compares its output with the rendered output of the solution file
-var sass = require('node-sass');
-var path = require('path');
-
-var result = sass.renderSync({
-  file: path.resolve(__dirname, './solution/solution.scss')
-});
-console.dir(result.css.toString());
