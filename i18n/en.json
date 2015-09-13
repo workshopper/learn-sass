@@ -10,6 +10,7 @@
     "imports": "IMPORTS",
     "mixins": "MIXINS",
     "extend_inheritance": "EXTEND/INHERITANCE",
-    "operators": "OPERATORS"
+    "operators": "OPERATORS",
+    "nested_properties": "NESTED PROPERTIES"
   }
 }

@@ -4,5 +4,6 @@
   "imports",
   "mixins",
   "extend_inheritance",
-  "operators"
+  "operators",
+  "nested_properties"
 ]
