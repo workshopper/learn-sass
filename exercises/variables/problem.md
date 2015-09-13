@@ -23,7 +23,7 @@ body {
 
 # EXERCISE
 
-Write a stylesheet that defines a variable `$color`, sets its value to '#000000', and uses it to set the `color` style of the `body` element.
+Write a stylesheet that defines a variable `$color`, sets its value to '#000', and uses it to set the `color` style of the `body` element.
 
 --
 ## HINTS
