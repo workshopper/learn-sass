@@ -20,6 +20,9 @@
     "node",
     "nodejs"
   ],
+  "bin": {
+    "learn-sass": "index.js"
+  },
   "author": "claudiopro",
   "license": "MIT",
   "bugs": {
