@@ -5,6 +5,7 @@
     "credits": "CREDITS"
   },
   "exercise": {
-    "variables": "VARIABLES"
+    "variables": "VARIABLES",
+    "nesting": "NESTING"
   }
 }
