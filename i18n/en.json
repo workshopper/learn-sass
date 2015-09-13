@@ -8,6 +8,7 @@
     "variables": "VARIABLES",
     "nesting": "NESTING",
     "imports": "IMPORTS",
-    "mixins": "MIXINS"
+    "mixins": "MIXINS",
+    "extend_inheritance": "EXTEND/INHERITANCE"
   }
 }
