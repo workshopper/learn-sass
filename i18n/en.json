@@ -11,6 +11,7 @@
     "mixins": "MIXINS",
     "extend_inheritance": "EXTEND/INHERITANCE",
     "operators": "OPERATORS",
-    "nested_properties": "NESTED PROPERTIES"
+    "nested_properties": "NESTED PROPERTIES",
+    "parent_selector": "PARENT SELECTOR"
   }
 }
