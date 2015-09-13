@@ -27,7 +27,7 @@ body {
 }
 ```
 
-Notice we're using `@import` 'reset'; in the base.scss file. When you import a file you don't need to include the file extension .scss. Sass is smart and will figure it out for you. When you generate the CSS you'll get:
+Notice we're using `@import 'reset';` in the base.scss file. When you import a file you don't need to include the file extension .scss. Sass is smart and will figure it out for you. When you generate the CSS you'll get:
 
 ```css
 html, body, ul, ol {
