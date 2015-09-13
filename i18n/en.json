@@ -6,6 +6,7 @@
   },
   "exercise": {
     "variables": "VARIABLES",
-    "nesting": "NESTING"
+    "nesting": "NESTING",
+    "imports": "IMPORTS"
   }
 }
