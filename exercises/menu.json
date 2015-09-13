@@ -3,5 +3,6 @@
   "nesting",
   "imports",
   "mixins",
-  "extend_inheritance"
+  "extend_inheritance",
+  "operators"
 ]

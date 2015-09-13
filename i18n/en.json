@@ -9,6 +9,7 @@
     "nesting": "NESTING",
     "imports": "IMPORTS",
     "mixins": "MIXINS",
-    "extend_inheritance": "EXTEND/INHERITANCE"
+    "extend_inheritance": "EXTEND/INHERITANCE",
+    "operators": "OPERATORS"
   }
 }
