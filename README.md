@@ -6,7 +6,7 @@ This adventure utilizes tutorials from the awesome [Sass guide](http://sass-lang
 
 # Acknowledgements
 
-Thanks to Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein for writing Sass, and to [Sam Richard](@snugug) for evangelizing it.
+Thanks to Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein for writing Sass, and to [Sam Richard](https://github.com/snugug) for evangelizing it.
 
 # License
 
