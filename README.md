@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/learn-sass.png?foo)](https://nodei.co/npm/learn-sass/)
+
 # Learn SASS
 
 Teach yourself the basics of SASS and SCSS through simple coding exercises. Based on the node workshopper adventure format popularized by [NodeSchool](https://nodeschool.io).
