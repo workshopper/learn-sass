@@ -1,0 +1,35 @@
+{
+  "name": "learn-sass",
+  "version": "1.0.0",
+  "description": "Learn SASS and SCSS through a workshopper adventure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/claudiopro/learn-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "scss",
+    "sassy",
+    "workshopper",
+    "adventure",
+    "node",
+    "nodejs"
+  ],
+  "author": "claudiopro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiopro/learn-sass/issues"
+  },
+  "homepage": "https://github.com/claudiopro/learn-sass#readme",
+  "dependencies": {
+    "cli-md": "^1.0.0",
+    "colors": "^1.1.2",
+    "diff": "^2.1.1",
+    "workshopper-adventure": "^3.4.5"
+  }
+}
