@@ -1,0 +1,17 @@
+{
+  "title": "IMPARA SASS",
+  "subtitle": "\u001b[23mSeleziona un esercizio e premi \u001b[3mInvio\u001b[23m per iniziare",
+  "menu": {
+    "credits": "CREDITI"
+  },
+  "exercise": {
+    "variables": "VARIABILI",
+    "nesting": "ANNIDAMENTO",
+    "imports": "IMPORT",
+    "mixins": "MIXIN",
+    "extend_inheritance": "EREDITARIETÀ CON EXTEND",
+    "operators": "OPERATORI",
+    "nested_properties": "PROPRIETÀ ANNIDATE",
+    "parent_selector": "SELETTORE DEL PADRE"
+  }
+}
