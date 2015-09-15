@@ -6,5 +6,7 @@
   "extend_inheritance",
   "operators",
   "nested_properties",
-  "parent_selector"
+  "parent_selector",
+  "interpolation",
+  "for_loop"
 ]

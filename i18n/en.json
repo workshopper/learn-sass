@@ -12,6 +12,8 @@
     "extend_inheritance": "EXTEND/INHERITANCE",
     "operators": "OPERATORS",
     "nested_properties": "NESTED PROPERTIES",
-    "parent_selector": "PARENT SELECTOR"
+    "parent_selector": "PARENT SELECTOR",
+    "interpolation": "INTERPOLATION",
+    "for_loop": "FOR LOOP"
   }
 }
