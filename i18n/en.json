@@ -14,6 +14,7 @@
     "nested_properties": "NESTED PROPERTIES",
     "parent_selector": "PARENT SELECTOR",
     "interpolation": "INTERPOLATION",
+    "each": "EACH ITERATOR",
     "for_loop": "FOR LOOP"
   }
 }

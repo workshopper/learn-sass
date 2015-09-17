@@ -8,5 +8,6 @@
   "nested_properties",
   "parent_selector",
   "interpolation",
+  "each",
   "for_loop"
 ]

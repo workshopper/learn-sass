@@ -14,6 +14,7 @@
     "nested_properties": "PROPRIETÀ ANNIDATE",
     "parent_selector": "SELETTORE DEL PADRE",
     "interpolation": "INTERPOLAZIONE",
+    "each": "ITERATORE EACH",
     "for_loop": "CICLO FOR"
   }
 }

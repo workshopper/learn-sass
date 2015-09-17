@@ -1,0 +1,5 @@
+@each $animal in cheetah, puma, jaguar, panther, tiger, leopard {
+  .#{$animal}-picture {
+    padding: 3em;
+  }
+}
