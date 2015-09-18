@@ -9,5 +9,6 @@
   "parent_selector",
   "interpolation",
   "each",
-  "for_loop"
+  "for_loop",
+  "while_loop"
 ]

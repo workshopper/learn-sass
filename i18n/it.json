@@ -15,6 +15,7 @@
     "parent_selector": "SELETTORE DEL PADRE",
     "interpolation": "INTERPOLAZIONE",
     "each": "ITERATORE EACH",
-    "for_loop": "CICLO FOR"
+    "for_loop": "CICLO FOR",
+    "while_loop": "CICLO WHILE"
   }
 }
