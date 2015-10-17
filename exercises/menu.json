@@ -3,6 +3,7 @@
   "nesting",
   "imports",
   "mixins",
+  "mixin_content",
   "extend_inheritance",
   "operators",
   "nested_properties",

@@ -9,6 +9,7 @@
     "nesting": "NESTING",
     "imports": "IMPORTS",
     "mixins": "MIXINS",
+    "mixin_content": "MIXIN CONTENT",
     "extend_inheritance": "EXTEND/INHERITANCE",
     "operators": "OPERATORS",
     "nested_properties": "NESTED PROPERTIES",

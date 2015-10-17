@@ -9,6 +9,7 @@
     "nesting": "ANNIDAMENTO",
     "imports": "IMPORT",
     "mixins": "MIXIN",
+    "mixin_content": "CONTENUTO DEI MIXIN",
     "extend_inheritance": "EREDITARIETÀ CON EXTEND",
     "operators": "OPERATORI",
     "nested_properties": "PROPRIETÀ ANNIDATE",
