@@ -1,9 +1,11 @@
 // Based on workshopper-exercise/execute
-const spawn = require('child_process').spawn
-    , path  = require('path')
-    , fs    = require('fs')
-    , after = require('after')
-    , xtend = require('xtend')
+import child_process from 'child_process'
+import path          from 'path'
+import fs            from 'fs'
+import after         from 'after'
+import xtend         from 'xtend'
+
+const spawn = child_process.spawn
 
 function execute (exercise, opts) {
   if (!opts) opts = {}
@@ -11,18 +13,14 @@ function execute (exercise, opts) {
   exercise.addSetup(setup)
   exercise.addProcessor(processor)
 
-
   // override if you want to mess with stdout
-  exercise.getStdout = function (type, child) {
-    // type == 'submission' || 'solution'
-    return child.stdout
-  }
+  exercise.getStdout = (type, child) => child.stdout
 
-  exercise.getSolutionFiles = function (callback) {
+  exercise.getSolutionFiles = function(callback) {
     var translated = path.join(this.dir, './solution_' + this.lang)
     var fallback = path.join(this.dir, './solution')
 
-    checkPath(translated, function(err, list) {
+    checkPath(translated, (err, list) => {
       if (list && list.length > 0)
         return callback(null, list)
 
@@ -31,17 +29,17 @@ function execute (exercise, opts) {
 
 
     function checkPath(dir, callback) {
-      fs.exists(dir, function (exists) {
+      fs.exists(dir, (exists) => {
         if (!exists)
           return callback(null, []);
 
-        fs.readdir(dir, function (err, list) {
+        fs.readdir(dir, (err, list) => {
           if (err)
             return callback(err)
 
           list = list
-            .filter(function (f) { return (/\.js$/).test(f) })
-            .map(function (f) { return path.join(dir, f)})
+            .filter((f) => (/\.js$/).test(f))
+            .map((f) => path.join(dir, f))
 
           callback(null, list)
         })
@@ -74,12 +72,12 @@ function execute (exercise, opts) {
 
 
   function kill () {
-    ;[ this.submissionChild, this.solutionChild ].forEach(function (child) {
+    ;[ this.submissionChild, this.solutionChild ].forEach((child) => {
       if (child && typeof child.kill == 'function')
         child.kill()
     })
 
-    setTimeout(function () {
+    setTimeout(() => {
       this.emit('executeEnd')
     }.bind(this), 10)
   }
@@ -92,12 +90,12 @@ function execute (exercise, opts) {
     if (!this.solutionCommand) this.solutionCommand = [ this.solution ].concat(this.solutionArgs)
     if (!this.submissionCommand) this.submissionCommand = [ this.submission ].concat(this.submissionArgs)
 
-    this.sassExec = path.resolve(__dirname, './node_modules/node-sass/bin/node-sass');
+    this.sassExec = path.resolve(__dirname, './node_modules/node-sass/bin/node-sass')
 
     this.submissionChild  = spawn(this.sassExec, this.submissionCommand, { env: this.env })
     this.submissionStdout = this.getStdout('submission', this.submissionChild)
 
-    setImmediate(function () { // give other processors a chance to overwrite stdout
+    setImmediate(() => { // give other processors a chance to overwrite stdout
       this.submissionStdout.on('end', ended)
     }.bind(this))
 
@@ -105,16 +103,16 @@ function execute (exercise, opts) {
       this.solutionChild  = spawn(this.sassExec, this.solutionCommand, { env: this.env })
       this.solutionStdout = this.getStdout('solution', this.solutionChild)
 
-      setImmediate(function () { // give other processors a chance to overwrite stdout
+      setImmediate(() => { // give other processors a chance to overwrite stdout
         this.solutionStdout.on('end', ended)
       }.bind(this))
     }
 
-    process.nextTick(function () {
+    process.nextTick(() => {
       callback(null, true)
     })
   }
 
 }
 
-module.exports = execute
+export default execute

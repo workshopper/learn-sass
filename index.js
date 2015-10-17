@@ -1,8 +1,7 @@
-#!/usr/bin/env node
+#!/usr/bin/env babel-node
 
-
-const workshopper = require('workshopper-adventure')
-    , path        = require('path')
+import workshopper from 'workshopper-adventure'
+import path        from 'path'
 
 workshopper({
     name        : 'learn-sass'
