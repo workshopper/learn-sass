@@ -1,6 +1,6 @@
 {
   "name": "learn-sass",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Learn SASS and SCSS through a workshopper adventure.",
   "main": "index.js",
   "scripts": {
