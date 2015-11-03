@@ -9,5 +9,5 @@ workshopper({
   , title       : 'Learn SASS'
   , exerciseDir : path.join(__dirname, 'exercises')
   , appDir      : __dirname
-  , languages   : ['en', 'es', 'it', 'pt-br']
+  , languages   : ['en', 'it', 'pt-br']
 })
