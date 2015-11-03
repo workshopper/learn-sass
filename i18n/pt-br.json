@@ -1,0 +1,22 @@
+{
+  "title": "APRENDA SASS",
+  "subtitle": "\u001b[23mEscolha um exercício e aperte \u001b[3mEnter\u001b[23m para começar",
+  "menu": {
+    "credits": "CRÉDITOS"
+  },
+  "exercise": {
+    "variables": "VARIÁVEIS",
+    "nesting": "ANINHAMENTO",
+    "imports": "IMPORTS",
+    "mixins": "MIXINS",
+    "mixin_content": "CONTEÚDO DO MIXIN",
+    "extend_inheritance": "EXTENSÕES/HERANÇA",
+    "operators": "OPERADORES",
+    "nested_properties": "PROPRIEDADES ANINHADAS",
+    "parent_selector": "SELETOR PAI",
+    "interpolation": "INTERPOLAÇÃO",
+    "each": "ITERADOR EACH",
+    "for_loop": "LAÇO FOR",
+    "while_loop": "LAÇO WHILE"
+  }
+}
