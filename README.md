@@ -55,6 +55,8 @@ You'll see the menu:
 
 Thanks to Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein for writing Sass, and to [Sam Richard](https://github.com/snugug) for evangelizing it.
 
+Brazilian Portuguese translation by [Nikolas Silva](https://github.com/nikolassilva).
+
 # License
 
 [MIT](http://opensource.org/licenses/MIT)
