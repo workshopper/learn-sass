@@ -20,3 +20,6 @@
 
 ## v1.0.16
 - Reverts [workshopper-adventure](https://github.com/workshopper/workshopper-adventure) to v3.5.2 (see [issue 16](https://github.com/workshopper/workshopper-adventure/issues/16))
+
+## v1.0.17
+- [#27](https://github.com/claudiopro/learn-sass/pull/27) Italian translation
