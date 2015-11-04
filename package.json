@@ -22,7 +22,7 @@
     "nodejs"
   ],
   "bin": {
-    "learn-sass": "index.js"
+    "learn-sass": "./bin/learnyounode"
   },
   "author": "claudiopro",
   "license": "MIT",
