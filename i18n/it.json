@@ -13,7 +13,7 @@
     "extend_inheritance": "EREDITARIETÀ CON EXTEND",
     "operators": "OPERATORI",
     "nested_properties": "PROPRIETÀ ANNIDATE",
-    "parent_selector": "SELETTORE DEL PADRE",
+    "parent_selector": "SELETTORE DEL GENITORE",
     "interpolation": "INTERPOLAZIONE",
     "each": "ITERATORE EACH",
     "for_loop": "CICLO FOR",

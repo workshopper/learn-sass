@@ -1,6 +1,6 @@
-# WHILE LOOP
+# CICLO WHILE
 
-The `@while` directive takes a SassScript expression and repeatedly outputs the nested styles until the statement evaluates to false. This can be used to achieve more complex looping than the `@for` statement is capable of, although this is rarely necessary. For example:
+La direttiva `@while` prende una espressione SassScript e produce ripetutamente gli stili in essa annidati finché l'espressione viene valutato come falso. Ciò può essere usato per ottenere un comportamento di ripetizione più complesso di ciò di cui è capace la direttiva `@for`, sebbene ciò sia raramente necessario. Ad esempio:
 
 ```scss
 $i: 6;
@@ -10,7 +10,7 @@ $i: 6;
 }
 ```
 
-is compiled to:
+viene compilato come:
 
 ```css
 .item-6 {
@@ -23,9 +23,9 @@ is compiled to:
   width: 4em; }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Write rules for the elements `h1` through `h6` that set their `font-size` to be `24px` minus `3px` times the heading level, i.e. `h1` would have a `font-size` of `24px - 3px * 1` equal to `21px`, using the `@while` directive. Compare with the code of the previous exercise.
+Scrivi delle regole per gli elementi da `h1` ad `h6` che impostino la proprietà `font-size` al valore `24px` meno `3px` moltiplicato il livello dell'intestazione, cioè in modo che `h1` abbia un valore di `font-size` di `24px - 3px * 1` uguale a `21px`, usando la direttiva `@while`. Confrontalo con il codice dell'esercizio precedente.
 
 --
 ## SUGGERIMENTI

@@ -1,8 +1,8 @@
-# PARENT SELECTOR
+# SELETTORE DEL GENITORE
 
-Sometimes it’s useful to use a nested rule’s parent selector in other ways than the default. For instance, you might want to have special styles for when that selector is hovered over or for when the body element has a certain class. In these cases, you can explicitly specify where the parent selector should be inserted using the `&` character.
+A volte è utile utilizzare il selettore del genitore di una regola annidata in maniere diverse da quella predefinita. Ad esempio, potresti volere assegnare stili speciali quando il selettore viene sorvolato dal mouse, oppure quando l'elemento body possiede una certa classe. In questi casi puoi specificare esplicitamente dove il selettore del genitore debba essere inserito usando il carattere `&`.
 
-`&` will be replaced with the parent selector as it appears in the CSS. This means that if you have a deeply nested rule, the parent selector will be fully resolved before the `&` is replaced. For example:
+`&` sarà sostituito con il selettore del genitore così come appare nel CSS. Ciò significa che se hai una regola profondamente annidata, il selettore del genitore sarà risolto completamente prima che `&` venga sostituito. Ad esempio:
 
 ```scss
 #main {
@@ -14,7 +14,7 @@ Sometimes it’s useful to use a nested rule’s parent selector in other ways t
 }
 ```
 
-is compiled to:
+viene compilato come:
 
 ```css
 #main {
@@ -25,9 +25,9 @@ is compiled to:
       color: red; }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Write a rule for the `button` element setting its `color` to 'black', and use the parent selector `&` to set its `color` to 'red' when the element has focus, via pseudo selector `:focus`.
+Scrivi una regola per l'elemento `button` impostandone lo stile `color` a 'black', e usa il selettore del genitore `&` per impostarne il valore di `color` a 'red' quando l'elemento riceve il focus, attraverso lo pseudo selettore `:focus`.
 
 --
 ## SUGGERIMENTI
