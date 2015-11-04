@@ -1,10 +1,10 @@
-# MIXIN CONTENT
+# CONTENUTO DEI MIXIN
 
-Passing Content Blocks to a Mixin
+Passare un blocco di contenuti ad un mixin
 
-It is possible to pass a block of styles to the mixin for placement within the styles included by the mixin. The styles will appear at the location of any `@content` directives found within the mixin. This makes it possible to define abstractions relating to the construction of selectors and directives.
+È possibile passare un blocco di stili al mixin perché venga posizionato all'interno degli stili inclusi dal mixin. Gli stili appariranno nella posizione di ciascuna direttiva `@content` trovata all'interno del mixin. Ciò rende possibile definire astrazioni relative alla costruzione di selettori e direttive.
 
-For example:
+Ad esempio:
 
 ```scss
 @mixin apply-to-ie6-only {
@@ -19,7 +19,7 @@ For example:
 }
 ```
 
-Generates:
+Genera:
 
 ```css
 * html #logo {
@@ -27,11 +27,11 @@ Generates:
 }
 ```
 
-Note: when the `@content` directive is specified more than once or in a loop, the style block will be duplicated with each invocation.
+Nota: quando la direttiva `@content` viene specificata più di una volta o all'interno di un ciclo, il blocco di stili sarà ripetuto a ciascuna invocazione.
 
-# EXERCISE
+# ESERCIZIO
 
-Modify the `border-thickness` mixin from the previous exercise to also accept a `@content`, and invoke it by passing in a rule that sets the `border-style` of the `img` element to `solid`.
+Modifica il mixin `border-thickness` dell'esercizio precedente perché accetti un blocco `@content`, e invocalo passandogli una regola che imposta lo stile `border-style` dell'elemento `img` a `solid`.
 
 --
 ## SUGGERIMENTI

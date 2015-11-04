@@ -1,6 +1,6 @@
-# INTERPOLATION
+# INTERPOLAZIONE
 
-You can also use SassScript variables in selectors and property names using `#{}` interpolation syntax:
+Puoi utilizzare variabili SassScript anche in selettori e nomi di proprietà usando la sintassi di interpolazione `#{}`:
 
 ```scss
 $name: foo;
@@ -10,14 +10,14 @@ p.#{$name} {
 }
 ```
 
-is compiled to:
+viene compilato come:
 
 ```css
 p.foo {
   border-color: blue; }
 ```
 
-It’s also possible to use `#{}` to put SassScript into property values. In most cases this isn’t any better than using a variable, but using `#{}` does mean that any operations near it will be treated as plain CSS. For example:
+È inoltre possibile usare `#{}` per inserire SassScript nei valori delle proprietà. In molti casi questo non ha alcun vantaggio rispetto all'uso di variabili, ma l'uso di `#{}` garantisce che ciascuna operazione al suo intorno verrà lasciata inalterata come puro CSS. Ad esempio:
 
 ```scss
 p {
@@ -27,16 +27,16 @@ p {
 }
 ```
 
-is compiled to:
+viene compilata come:
 
 ```css
 p {
   font: 12px/30px; }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Define a variable `$selector` and set its value to 'article'. Then write a rule using the interpolated value of the `$selector` variable as selector, and set its `color` to `#f00`.
+Definisci una variabile `$selector` e imposta il suo valore ad 'article'. Successivamente scrivi una regola usando il valore interpolato della variabile `$selector` come selettore, e imposta il suo stile `color` a `#f00`.
 
 --
 ## SUGGERIMENTI
