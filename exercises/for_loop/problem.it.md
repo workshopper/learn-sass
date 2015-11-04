@@ -1,8 +1,8 @@
-# FOR LOOP
+# CICLO FOR
 
-The `@for` directive repeatedly outputs a set of styles. For each repetition, a counter variable is used to adjust the output. The directive has two forms: `@for $var from <start> through <end>` and `@for $var from <start> to <end>`. Note the difference in the keywords `through` and `to`. `$var` can be any variable name, like `$i`; `<start>` and `<end>` are SassScript expressions that should return integers. When `<start>` is greater than `<end>` the counter will decrement instead of increment.
+La direttiva `@for` emette ripetutamente un insieme di stili. Per ogni ripetizione, viene usata una variabile contatore per modificare il risultato. La direttiva ha due forme: `@for $var from <start> through <end>` e `@for $var from <start> to <end>`. Nota la differenza nelle parole chiave `through` e `to`. `$var` può essere qualsiasi nome di variabile, come `$i`; `<start>` e `<end>` sono espressioni SassScript che devono restituire valori interi. Quando `<start>` è maggiore di `<end>` il contatore verrà decrementato anziché incrementato.
 
-The `@for` statement sets $var to each successive number in the specified range and each time outputs the nested styles using that value of `$var`. For the form `from ... through`, the range _includes_ the values of `<start>` and `<end>,` but the form `from ... to` runs up to _but not including_ the value of `<end>`. Using the `through` syntax,
+L'istruzione `@for` imposta il valore di `$var` a ciascun numero nella successione e produce ogni volta gli stili in essa contenuti usando tale valore di `$var`. Per la forma `from ... through`, la successione _include_ i valori di `<start>` e `<end>,` ma la forma `from ... to` giunge _ma non include_ il valore `<end>`. Usando la sintassi `through`,
 
 ```scss
 @for $i from 1 through 3 {
@@ -10,7 +10,7 @@ The `@for` statement sets $var to each successive number in the specified range 
 }
 ```
 
-is compiled to:
+viene compilata come:
 
 ```css
 .item-1 {
@@ -21,9 +21,9 @@ is compiled to:
   width: 6em; }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Write rules for the elements `h1` through `h6` that set their `font-size` to be `24px` minus `3px` times the heading level, i.e. `h1` would have a `font-size` of `24px - 3px * 1` equal to `21px`, using the `@for` directive.
+Scrivi delle regole per gli elementi da `h1` ad `h6` che impostino la proprietà `font-size` al valore `24px` meno `3px` moltiplicato il livello dell'intestazione, cioè in modo che `h1` abbia un valore di `font-size` di `24px - 3px * 1` uguale a `21px`, usando la direttiva `@for`.
 
 --
 ## SUGGERIMENTI

@@ -1,8 +1,8 @@
-# IMPORTS
+# IMPORT
 
-CSS has an import option that lets you split your CSS into smaller, more maintainable portions. The only drawback is that each time you use `@import` in CSS it creates another HTTP request. Sass builds on top of the current CSS `@import` but instead of requiring an HTTP request, Sass will take the file that you want to import and combine it with the file you're importing into so you can serve a single CSS file to the web browser.
+Il CSS possiede un'opzione di importazione che ti permette di suddividere il tuo CSS in frammenti più piccoli e più mantenibili. L'unico svantaggio è che ogni volta che usi `@import` in CSS, viene prodotta una nuova richiesta HTTP. Sass sfrutta l'attuale direttiva CSS `@import` ma anziché richiedere una richiesta HTTP, Sass prenderà il file che desideri importare e lo combinerà con il file in cui stai effettuando l'importazione, in modo tale da servire un singolo file CSS al browser.
 
-Let's say you have a couple of Sass files, \_reset.scss and base.scss. We want to import \_reset.scss into base.scss.
+Ammettiamo di avere un paio di file Sass, \_reset.scss e base.scss. Vogliamo importare \_reset.scss e base.scss.
 
 ```scss
 // _reset.scss
@@ -27,7 +27,7 @@ body {
 }
 ```
 
-Notice we're using `@import 'reset';` in the base.scss file. When you import a file you don't need to include the file extension .scss. Sass is smart and will figure it out for you. When you generate the CSS you'll get:
+Nota che stiamo utilizzando `@import 'reset';` nel file base base.scss. Quando importi un file non hai bisogno di specificare l'estensione del file .scss. Sass è intelligente e lo aggiungerà al tuo posto. Quando il CSS viene generato otterrai:
 
 ```css
 html, body, ul, ol {
@@ -41,9 +41,9 @@ body {
 }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Write a partial that defines a variable `$color` and sets its value to '#ff0000', and a stylesheet that imports the partial, and uses the variable to set the `color` style of the body element.
+Scrivi un file parziale che definisca una variabile `$color` e imposti il suo valore a '#ff0000', e un foglio di stile che importi il parziale, e utilizzi la variabile per impostare lo stile `color` dell'elemento body.
 
 --
 ## SUGGERIMENTI
