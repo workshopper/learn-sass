@@ -1,6 +1,6 @@
-# NESTING
+# ANNIDAMENTO
 
-When writing HTML you've probably noticed that it has a clear nested and visual hierarchy. CSS, on the other hand, doesn't. Here's an example of some typical styles for a site's navigation:
+Scrivendo codice HTML avrai probabilmente notato che possiede una gerarchia chiara e visuale di annidamento. CSS, invece, ne è sprovvisto. Ecco un esempio tipico di stili per la navigazione di un sito:
 
 ```scss
 nav {
@@ -20,7 +20,7 @@ nav {
 }
 ```
 
-You'll notice that the ul, li, and a selectors are nested inside the nav selector. This is a great way to organize your CSS and make it more readable. When you generate the CSS you'll get something like this:
+Noterai che i selettori `ul`, `li`, ed `a` sono annidati all'interno del selettore `nav`. Questa è un'ottima maniera di organizzare il tuo CSS e renderlo più leggibile. Quando generi il CSS otterrai un risultato come il seguente:
 
 ```css
 nav ul {
@@ -40,9 +40,9 @@ nav a {
 }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Write a stylesheet that sets `margin: 0` to the `ul`, and color of links to `red` for elements contained within an `aside` element, using nesting.
+Scrivi un foglio di stile che imposta lo stile `margin: 0` dell'elemento `ul`, e il colore dei link a `red` per elementi contenuti all'interno di un elemento `aside`, usando le regole annidate.
 
 --
 ## SUGGERIMENTI

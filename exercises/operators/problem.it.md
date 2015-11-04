@@ -1,6 +1,6 @@
-# OPERATORS
+# OPERATORI
 
-Doing math in your CSS is very helpful. Sass has a handful of standard math operators like `+`, `-`, `*`, `/,` and `%`. In our example we're going to do some simple math to calculate widths for an `aside` & `article`.
+Poter eseguire calcoli matematici all'interno del tuo CSS è molto utile. Sass ha una serie di operatori matematici standard come `+`, `-`, `*`, `/,` e `%`. Nel nostro esempio utilizzeremo semplici regole per calcolare la larghezza di elementi `aside` e `article`.
 
 ```scss
 .container { width: 100%; }
@@ -16,7 +16,7 @@ aside[role="complimentary"] {
 }
 ```
 
-We've created a very simple fluid grid, based on 960px. Operations in Sass let us do something like take pixel values and convert them to percentages without much hassle. The generated CSS will look like:
+Abbiamo creato una semplicissima grid fluida, basata su 960px. Le operazioni in Sass ci per mettono di ricevere valori in pixel e convertirli in percentuali senza particolari difficoltà. Il CSS generato apparirà come:
 
 ```css
 .container {
@@ -34,9 +34,9 @@ aside[role="complimentary"] {
 }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Define a variable `$page-width` with a value of `1400px`, and a variable `$padding` with a value of `20px`. Then, define a rule for a selector `.container`, set its `padding` to the value of `$padding`, and its `width` to `0.8` times the value of `$page-width`, minus twice the value of `$padding`.
+Definisci una variabile `$page-width` con il valore di `1400px`, e una variabile `$padding` con il valore di `20px`. Qunidi, definisci una regola per un selettore `.container`, imposta il suo `padding` al valore di `$padding`, e la sua larghezza `width` a `0.8` moltiplicato il valore di `$page-width`, meno il doppio del valore di `$padding`.
 
 --
 ## SUGGERIMENTI

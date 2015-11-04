@@ -1,6 +1,6 @@
-# NESTED PROPERTIES
+# PROPRIETÀ ANNIDATE
 
-CSS has quite a few properties that are in “namespaces;” for instance, `font-family`, `font-size`, and `font-weight` are all in the `font` namespace. In CSS, if you want to set a bunch of properties in the same namespace, you have to type it out each time. Sass provides a shortcut for this: just write the namespace once, then nest each of the sub-properties within it. For example:
+Il CSS possiede parecchie proprietà che sono raggruppate in “namespaces;” ad esempio, `font-family`, `font-size`, e `font-weight` sono tutte nel namespace `font`. In CSS, se vuoi impostare un insieme di proprietà nello stesso namespace, devi scriverlo ripetutamente per esteso. Sass fornisce una scorciatoia a questo scopo: scrivi il namespace una volta sola, quindi annida ciascuna delle sotto-proprietà al suo interno. Ad esempio:
 
 ```scss
 .funky {
@@ -12,7 +12,7 @@ CSS has quite a few properties that are in “namespaces;” for instance, `font
 }
 ```
 
-is compiled to:
+viene compilato come:
 
 ```css
 .funky {
@@ -21,7 +21,7 @@ is compiled to:
   font-weight: bold; }
 ```
 
-The property namespace itself can also have a value. For example:
+La proprietà namespace può avere essa stessa un valore. Ad esempio:
 
 ```scss
 .funky {
@@ -31,7 +31,7 @@ The property namespace itself can also have a value. For example:
 }
 ```
 
-is compiled to:
+viene compilato come:
 
 ```css
 .funky {
@@ -40,9 +40,9 @@ is compiled to:
 }
 ```
 
-# EXERCISE
+# ESERCIZIO
 
-Define a selector `.sassy`, and use nested properties to set `border-width` to '10px', `border-color` to 'red' and `border-radius` to '5px'.
+Definisci un selettore `.sassy`, e usa proprietà annidate per impostare lo stile `border-width` a '10px', `border-color` a 'red' e `border-radius` a '5px'.
 
 --
 ## SUGGERIMENTI
