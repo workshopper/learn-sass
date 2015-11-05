@@ -1,6 +1,6 @@
 {
   "name": "learn-sass",
-  "version": "1.0.17",
+  "version": "1.1.0",
   "description": "Learn SASS and SCSS through a workshopper adventure.",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "colors": "^1.1.2",
     "diff": "^2.2.0",
     "node-sass": "^3.4.0",
-    "workshopper-adventure": "^4.2.2",
+    "workshopper-adventure": "^4.3.1",
     "workshopper-exercise": "^2.5.3",
     "xtend": "^4.0.1"
   },
