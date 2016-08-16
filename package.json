@@ -42,9 +42,6 @@
   "homepage": "https://github.com/claudiopro/learn-sass#readme",
   "dependencies": {
     "after": "^0.8.2",
-    "cli-md": "^1.0.0",
-    "colors": "^1.1.2",
-    "diff": "^2.2.0",
     "node-sass": "^3.4.0",
     "workshopper-adventure": "^4.6.3",
     "workshopper-exercise": "^2.5.3",
