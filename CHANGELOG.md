@@ -24,7 +24,13 @@
 ## v1.0.17
 - [#27](https://github.com/claudiopro/learn-sass/pull/27) Italian translation
 
-## v1.0.18
+## v1.1.0
+- Moved from Codeship to Travis
+- Upgraded to workshopper-adventure@4.2.x
+- [#31](https://github.com/claudiopro/learn-sass/issues/31) Code Cleanup
+
+## v1.1.1
+- Changed color annotation in samples from 3 hex digits to 6. i.e. #f00 -> #ff0000
 - Moved the screenshot outside of the repository to save install-time of learn-sass
 - Cleanup & removed unused dependencies: cli-md, colors, diff
 - [#18](https://github.com/claudiopro/learn-sass/pull/18) Updated to node-sass@3.4.1
