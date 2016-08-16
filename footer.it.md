@@ -1,4 +1,4 @@
---
+---
 ## SUGGERIMENTI
 
 Per creare un foglio di stile Sass (SCSS), crea un nuovo file con l'estensione `.scss` e comincia a scrivere in SCSS. Quando hai terminato, devi eseguire:

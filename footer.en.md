@@ -1,4 +1,4 @@
---
+---
 ## HINTS
 
 To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:

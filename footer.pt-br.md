@@ -1,4 +1,4 @@
---
+---
 ## DICAS
 
 Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
