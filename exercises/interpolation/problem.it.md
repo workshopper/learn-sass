@@ -36,7 +36,7 @@ p {
 
 # ESERCIZIO
 
-Definisci una variabile `$selector` e imposta il suo valore ad 'article'. Successivamente scrivi una regola usando il valore interpolato della variabile `$selector` come selettore, e imposta il suo stile `color` a `#f00`.
+Definisci una variabile `$selector` e imposta il suo valore ad 'article'. Successivamente scrivi una regola usando il valore interpolato della variabile `$selector` come selettore, e imposta il suo stile `color` a `#ff0000`.
 
 --
 ## SUGGERIMENTI
