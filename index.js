@@ -5,6 +5,9 @@ const workshopper = require('workshopper-adventure')
   , exerciseDir : path.join(__dirname, 'exercises')
   , appDir      : __dirname
   , languages   : ['en', 'it', 'pt-br']
+  , footer      : {
+    file: path.join(__dirname, 'footer.{lang}.md')
+  }
 })
 
 learnsass.addAll([

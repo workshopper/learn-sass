@@ -44,14 +44,3 @@ nav a {
 # EXERCÍCIO
 
 Escreva uma folha de estilo que define `margin: 0` para o `ul`, e a cor dos links para `red` para elementos contidos num elemento `aside`, usando aninhamento.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

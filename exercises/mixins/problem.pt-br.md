@@ -27,14 +27,3 @@ Para criar um mixin você deve usar a diretiva `@mixin` e dar a ela um nome. Nó
 # EXERCÍCIO
 
 Faça um mixin `border` que aceita uma variável `$thickness` e defina a propriedade `border-width` ao valor de `$thickness`. Então, inclua esse mixin como regra para o elemento `img`, e defina a espessura da borda para `10px`.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

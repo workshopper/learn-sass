@@ -28,14 +28,3 @@ As vezes é útil usar as regras aninhadas no seletor pai de outras formas. Por 
 # EXERCÍCIO
 
 Escreva uma regra para o elemento `button` definindo sua cor (`color`) para 'black', e use o seletor pai `&` para definir sua cor para 'red', quando o elemento estiver em foco, usando o pseudo seletor `:focus`.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

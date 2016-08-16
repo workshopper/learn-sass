@@ -50,14 +50,3 @@ What the above code does is allow you to take the CSS properties in `.message` a
 # EXERCISE
 
 Write a rule for the selector `.push-button` with a `background-color: blue`, and a rule for the selector `.main-button` so that it extends `.push-button`, and also sets the `font-weight: bold`.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.

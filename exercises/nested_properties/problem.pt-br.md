@@ -43,14 +43,3 @@ A própria namespace pode ter um valor. Por exemplo:
 # EXERCÍCIO
 
 Defina um seletor `.sassy`, e use o aninhamento de propriedades para definir o `border-width` para '10px', `border-color` para 'red' e `border-radius` para '5px'.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

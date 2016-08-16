@@ -44,14 +44,3 @@ body {
 # EXERCÍCIO
 
 Escreva um arquivo que contenha uma variável `$color` e defina seu valor a '#ff0000', e uma folha de estilo que importa esse arquivo, então use a variável para definir a propriedade `color` do elemento body.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

@@ -32,14 +32,3 @@ Nota: quando a diretiva `@content` for específicada mais de uma vez ou num loop
 # EXERCÍCIO
 
 Modifique o mixin `border-thickness` do exercício anterior para também aceitar a diretiva `@content`, e chame-a passando uma regra que defina a propriedade `border-style` do elemento `img` para `solid`.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

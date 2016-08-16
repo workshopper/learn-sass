@@ -26,14 +26,3 @@ viene compilato come:
 # ESERCIZIO
 
 Scrivi delle regole per gli elementi da `h1` ad `h6` che impostino la proprietà `font-size` al valore `24px` meno `3px` moltiplicato il livello dell'intestazione, cioè in modo che `h1` abbia un valore di `font-size` di `24px - 3px * 1` uguale a `21px`, usando la direttiva `@while`. Confrontalo con il codice dell'esercizio precedente.
-
---
-## SUGGERIMENTI
-
-Per creare un foglio di stile Sass (SCSS), crea un nuovo file con l'estensione `.scss` e comincia a scrivere in SCSS. Quando hai terminato, devi eseguire:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-per proseguire. Il tuo foglio di stile sarà verificato, un rapporto generato, e la lezione marcata come 'completa' se hai completato l'esercizio con successo.

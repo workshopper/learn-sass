@@ -27,14 +27,3 @@ To create a mixin you use the `@mixin` directive and give it a name. We've named
 # EXERCISE
 
 Write a mixin `border` that accepts a variable `$thickness` and sets the `border-width` style to the value of `$thickness`. Then, include the mixin in a rule for the `img` element, and set its border thickness to `10px`.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.

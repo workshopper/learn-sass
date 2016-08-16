@@ -28,14 +28,3 @@ viene compilato come:
 # ESERCIZIO
 
 Scrivi uno script Sass che genera regole per i selettori `.#{$big-cat}-picture`, dove `$big-cat` è uno tra 'cheetah', 'puma', 'jaguar', 'panther', 'tiger', 'leopard', e imposta il loro `padding` al valore '3em'.
-
---
-## SUGGERIMENTI
-
-Per creare un foglio di stile Sass (SCSS), crea un nuovo file con l'estensione `.scss` e comincia a scrivere in SCSS. Quando hai terminato, devi eseguire:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-per proseguire. Il tuo foglio di stile sarà verificato, un rapporto generato, e la lezione marcata come 'completa' se hai completato l'esercizio con successo.

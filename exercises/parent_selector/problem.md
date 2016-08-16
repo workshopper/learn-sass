@@ -28,14 +28,3 @@ is compiled to:
 # EXERCISE
 
 Write a rule for the `button` element setting its `color` to 'black', and use the parent selector `&` to set its `color` to 'red' when the element has focus, via pseudo selector `:focus`.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.

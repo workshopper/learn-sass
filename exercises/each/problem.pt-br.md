@@ -28,14 +28,3 @@ A regra `@each` define `$var` para cada item da lista ou mapa, então retorna os
 # EXERCÍCIO
 
 Escreva um script Sass que gera regras para os seletores `.#{$big-cat}-picture`, onde `$big-cat` é um dos 'cheetah', 'puma', 'jaguar', 'panther', 'tiger', 'leopard', e defina seu `padding` para '3em'.
-
---
-## DICAS
-
-Para criar uma folha de estilo em Sass (SCSS), crie um arquivo com a extensão `.scss` e comece a escrever SCSS. Quando estiver pronto, você deve executar:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-para prosseguir. Sua folha de estilo será testada, um relatório será gerado, e a lição será marcada como 'completada' se você tiver feito tudo corretamente.

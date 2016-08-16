@@ -32,14 +32,3 @@ Note: when the `@content` directive is specified more than once or in a loop, th
 # EXERCISE
 
 Modify the `border-thickness` mixin from the previous exercise to also accept a `@content`, and invoke it by passing in a rule that sets the `border-style` of the `img` element to `solid`.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.

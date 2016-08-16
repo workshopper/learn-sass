@@ -44,14 +44,3 @@ body {
 # ESERCIZIO
 
 Scrivi un file parziale che definisca una variabile `$color` e imposti il suo valore a '#ff0000', e un foglio di stile che importi il parziale, e utilizzi la variabile per impostare lo stile `color` dell'elemento body.
-
---
-## SUGGERIMENTI
-
-Per creare un foglio di stile Sass (SCSS), crea un nuovo file con l'estensione `.scss` e comincia a scrivere in SCSS. Quando hai terminato, devi eseguire:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-per proseguire. Il tuo foglio di stile sarà verificato, un rapporto generato, e la lezione marcata come 'completa' se hai completato l'esercizio con successo.

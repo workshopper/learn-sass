@@ -50,14 +50,3 @@ Il codice qui sopra ti permette di riutilizzare le proprietà CSS definite in `.
 # ESERCIZIO
 
 Scrivi una regola per il selettore `.push-button` con la proprietà `background-color: blue`, e una regola per il selettore `.main-button` in maniera tale che estenda `.push-button`, e imposti inoltre la proprietà `font-weight: bold`.
-
---
-## SUGGERIMENTI
-
-Per creare un foglio di stile Sass (SCSS), crea un nuovo file con l'estensione `.scss` e comincia a scrivere in SCSS. Quando hai terminato, devi eseguire:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-per proseguire. Il tuo foglio di stile sarà verificato, un rapporto generato, e la lezione marcata come 'completa' se hai completato l'esercizio con successo.

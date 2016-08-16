@@ -37,14 +37,3 @@ p {
 # EXERCISE
 
 Define a variable `$selector` and set its value to 'article'. Then write a rule using the interpolated value of the `$selector` variable as selector, and set its `color` to `#ff0000`.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.

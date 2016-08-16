@@ -26,14 +26,3 @@ is compiled to:
 # EXERCISE
 
 Write rules for the elements `h1` through `h6` that set their `font-size` to be `24px` minus `3px` times the heading level, i.e. `h1` would have a `font-size` of `24px - 3px * 1` equal to `21px`, using the `@while` directive. Compare with the code of the previous exercise.
-
---
-## HINTS
-
-To make a Sass (SCSS) stylesheet, create a new file with a `.scss` extension and start writing SCSS. When you are done, you must run:
-
-```sh
-$ {appname} verify stylesheet.scss
-```
-
-to proceed. Your stylesheet will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.
