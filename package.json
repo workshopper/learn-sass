@@ -31,6 +31,10 @@
     "email": "claudio.procida@gmail.com",
     "url": "https://github.com/claudiopro"
   },
+  "contributors": [
+    "Claudio Procida <claudio.procida@gmail.com> (https://github.com/claudiopro)",
+    "Martin Heidegger (https://github.com/martinheidegger)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/claudiopro/learn-sass/issues"
