@@ -23,3 +23,11 @@
 
 ## v1.0.17
 - [#27](https://github.com/claudiopro/learn-sass/pull/27) Italian translation
+
+## v1.0.18
+- Cleanup & removed unused dependencies: cli-md, colors, diff
+- [#18](https://github.com/claudiopro/learn-sass/pull/18) Updated to node-sass@3.4.1
+- [#33](https://github.com/claudiopro/learn-sass/pull/33) Updated to workshopper-adventure@4.6.3
+- [#35](https://github.com/claudiopro/learn-sass/pull/35) Updated to after@0.8.2
+- Extracted common footer into own files
+- Fixed Markdown syntax error
