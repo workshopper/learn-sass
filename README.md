@@ -47,7 +47,7 @@ learn-sass
 
 You'll see the menu:
 
-![learn-sass screenshot](screenshot.png)
+[![learn-sass screenshot](https://i.gyazo.com/f0559f19aa7028fe2235120d12d16c00.png)](https://gyazo.com/f0559f19aa7028fe2235120d12d16c00)
 
 1. Navigate the menu with the up & down arrow keys.
 1. Choose a challenge by hitting enter.
