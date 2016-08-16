@@ -25,6 +25,7 @@
 - [#27](https://github.com/claudiopro/learn-sass/pull/27) Italian translation
 
 ## v1.0.18
+- Moved the screenshot outside of the repository to save install-time of learn-sass
 - Cleanup & removed unused dependencies: cli-md, colors, diff
 - [#18](https://github.com/claudiopro/learn-sass/pull/18) Updated to node-sass@3.4.1
 - [#33](https://github.com/claudiopro/learn-sass/pull/33) Updated to workshopper-adventure@4.6.3
