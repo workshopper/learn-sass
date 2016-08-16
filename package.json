@@ -26,7 +26,11 @@
   "bin": {
     "learn-sass": "./bin/learn-sass"
   },
-  "author": "claudiopro",
+  "author": {
+    "name": "Claudio Procida",
+    "email": "claudio.procida@gmail.com",
+    "url": "https://github.com/claudiopro"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/claudiopro/learn-sass/issues"
@@ -45,5 +49,12 @@
   "devDependencies": {
     "sass-lint": "^1.3.2",
     "workshopper-adventure-test": "^1.0.0"
-  }
+  },
+  "maintainers": [
+    {
+      "name": "Martin Heidegger",
+      "email": "martin.heidegger@gmail.com",
+      "url": "https://github.com/martinheidegger"
+    }
+  ]
 }
