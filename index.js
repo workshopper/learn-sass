@@ -1,8 +1,7 @@
 const workshopper = require('workshopper-adventure')
-    , path        = require('path')
-    , learnsass   = workshopper({
+    , path = require('path')
+    , learnsass = workshopper({
     title       : 'Learn SASS'
-  , exerciseDir : path.join(__dirname, 'exercises')
   , appDir      : __dirname
   , languages   : ['en', 'it', 'pt-br']
   , footer      : {
