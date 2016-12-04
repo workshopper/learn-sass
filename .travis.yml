@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - "4.2"
-  - "4.1"
-  - "4.0"
+  - "7.2"
+  - "6.9"
+  - "5.12"
+  - "4.6"
 script: npm run test
