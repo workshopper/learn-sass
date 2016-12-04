@@ -43,16 +43,21 @@
   "homepage": "https://github.com/claudiopro/learn-sass#readme",
   "dependencies": {
     "after": "^0.8.2",
-    "node-sass": "^3.9.2",
-    "workshopper-adventure": "^5.0.3",
-    "workshopper-exercise": "^2.5.3",
+    "node-sass": "^3.13.0",
+    "workshopper-adventure": "^5.1.6",
+    "workshopper-exercise": "^2.7.0",
     "xtend": "^4.0.1"
   },
   "devDependencies": {
-    "sass-lint": "^1.9.1",
-    "workshopper-adventure-test": "^1.0.0"
+    "sass-lint": "^1.10.2",
+    "workshopper-adventure-test": "^1.0.4"
   },
   "maintainers": [
+    {
+      "name": "Claudio Procida",
+      "email": "claudio.procida@gmail.com",
+      "url": "https://github.com/claudiopro"
+    },
     {
       "name": "Martin Heidegger",
       "email": "martin.heidegger@gmail.com",
