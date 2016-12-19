@@ -3,5 +3,5 @@ node_js:
   - "7.2"
   - "6.9"
   - "5.12"
-  - "4.6"
+  - "4.7"
 script: npm run test
