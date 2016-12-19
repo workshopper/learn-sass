@@ -64,9 +64,8 @@ function execute (exercise, opts) {
 
     // set this.solution if your solution is elsewhere
     if (!this.solution) {
-      // var localisedSolutionPath = path.join(this.dir, './solution_' + this.lang + '/solution.js');
-      // this.solution = fs.existsSync(localisedSolutionPath) ? localisedSolutionPath : path.join(this.dir, './solution/solution.js')
-      this.solution = path.join(this.dir, './solution/solution.scss')
+      var localisedSolutionPath = path.join(this.dir, './solution_' + this.lang + '/solution.scss');
+      this.solution = fs.existsSync(localisedSolutionPath) ? localisedSolutionPath : path.join(this.dir, './solution/solution.scss')
     }
 
     process.nextTick(callback)
