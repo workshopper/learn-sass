@@ -1,13 +1,13 @@
 const workshopper = require('workshopper-adventure')
     , path = require('path')
     , learnsass = workshopper({
-    title       : 'Learn SASS'
-  , appDir      : __dirname
-  , languages   : ['en', 'it', 'pt-br']
-  , footer      : {
-    file: path.join(__dirname, 'footer.{lang}.md')
-  }
-})
+        title       : 'Learn SASS'
+      , appDir      : __dirname
+      , languages   : ['en', 'it', 'pt-br']
+      , footer      : {
+        file: path.join(__dirname, 'footer.{lang}.md')
+      }
+    })
 
 learnsass.addAll([
   "variables",
