@@ -38,3 +38,22 @@
 - [#35](https://github.com/claudiopro/learn-sass/pull/35) Updated to after@0.8.2
 - Extracted common footer into own files
 - Fixed Markdown syntax error
+
+## v1.1.2
+- [#39](https://github.com/claudiopro/learn-sass/pull/39) Updated to workshopper-adventure@4.7.1
+- [#40](https://github.com/claudiopro/learn-sass/pull/40) Updated to sass-lint@1.9.1
+- [#41](https://github.com/claudiopro/learn-sass/pull/41) Updated to node-sass@3.9.1
+
+## v1.1.3
+- Updated to workshopper-adventure@5.0.3
+- Updated to node-sass@3.9.2
+
+## v1.2.0
+- Updated to node-sass@3.13.0
+
+## v1.3.0
+- [#49](https://github.com/claudiopro/learn-sass/pull/49) Updated to node-sass@4.1.0
+
+## v1.3.1
+- Restores support for localized solutions
+- Adds a localization howto
