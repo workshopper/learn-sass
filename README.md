@@ -58,6 +58,8 @@ Thanks to Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein for writing Sas
 
 Brazilian Portuguese translation by [Nikolas Silva](https://github.com/nikolassilva).
 
-# License
+## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2015, 2017 Claudio Procida
