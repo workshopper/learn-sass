@@ -1,5 +1,5 @@
 [![NPM](https://nodei.co/npm/learn-sass.png?foo)](https://nodei.co/npm/learn-sass/)
-[![Build Status](https://travis-ci.org/claudiopro/learn-sass.svg?branch=master)](https://travis-ci.org/claudiopro/learn-sass)
+[![Build Status](https://travis-ci.org/workshopper/learn-sass.svg?branch=master)](https://travis-ci.org/workshopper/learn-sass)
 
 # Learn SASS
 

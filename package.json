@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/claudiopro/learn-sass.git"
+    "url": "git+ssh://git@github.com/workshopper/learn-sass.git"
   },
   "keywords": [
     "sass",
@@ -38,9 +38,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/claudiopro/learn-sass/issues"
+    "url": "https://github.com/workshopper/learn-sass/issues"
   },
-  "homepage": "https://github.com/claudiopro/learn-sass#readme",
+  "homepage": "https://github.com/workshopper/learn-sass#readme",
   "dependencies": {
     "after": "^0.8.2",
     "node-sass": "^4.1.0",
