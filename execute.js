@@ -1,5 +1,5 @@
 // Based on workshopper-exercise/execute
-const spawn = require('child_process').spawn
+const spawn = require('cross-spawn')
     , path  = require('path')
     , fs    = require('fs')
     , after = require('after')

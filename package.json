@@ -43,6 +43,7 @@
   "homepage": "https://github.com/claudiopro/learn-sass#readme",
   "dependencies": {
     "after": "^0.8.2",
+    "cross-spawn": "^5.1.0",
     "node-sass": "^4.1.0",
     "workshopper-adventure": "^5.1.6",
     "workshopper-exercise": "^2.7.0",
