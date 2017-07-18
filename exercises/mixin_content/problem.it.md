@@ -7,23 +7,24 @@ Passare un blocco di contenuti ad un mixin
 Ad esempio:
 
 ```scss
-@mixin apply-to-ie6-only {
-  * html {
-    @content;
-  }
+$color: white;
+@mixin colors($color: blue) {
+  background-color: $color;
+  @content;
+  border-color: $color;
 }
-@include apply-to-ie6-only {
-  #logo {
-    background-image: url(/logo.gif);
-  }
+.colors {
+  @include colors { color: $color; }
 }
 ```
 
 Genera:
 
 ```css
-* html #logo {
-  background-image: url(/logo.gif);
+.colors {
+  background-color: blue;
+  color: white;
+  border-color: blue;
 }
 ```
 
