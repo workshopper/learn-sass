@@ -7,23 +7,24 @@ It is possible to pass a block of styles to the mixin for placement within the s
 For example:
 
 ```scss
-@mixin apply-to-ie6-only {
-  * html {
-    @content;
-  }
+$color: white;
+@mixin colors($color: blue) {
+  background-color: $color;
+  @content;
+  border-color: $color;
 }
-@include apply-to-ie6-only {
-  #logo {
-    background-image: url(/logo.gif);
-  }
+.colors {
+  @include colors { color: $color; }
 }
 ```
 
 Generates:
 
 ```css
-* html #logo {
-  background-image: url(/logo.gif);
+.colors {
+  background-color: blue;
+  color: white;
+  border-color: blue;
 }
 ```
 
