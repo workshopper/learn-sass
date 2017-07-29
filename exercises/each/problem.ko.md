@@ -27,4 +27,4 @@
 
 # 과제
 
-`@each`를 사용해서 선택자들을 생성하는 Sass 스크립트를 한 번 만들어 보세요. 선택자의 이름은 `.#{$big-cat}-picture`의 형식으로 `$big-cat`에는 'cheetah', 'puma', 'jaguar', 'panther', 'tiger', 'leopard'가 들어가야 합니다. 그리고 모든 선택자에 '3em' 값을 가진 `padding` 스타일을 설정하세요.
+`@each`를 사용해서 선택자들을 생성하는 Sass 스크립트를 한 번 만들어 보세요. 선택자의 이름은 `.#{$big-cat}-picture`의 형식으로 `$big-cat`에는 'cheetah', 'puma', 'jaguar', 'panther', 'tiger', 'leopard'가 들어가야 합니다. 그리고 모든 선택자에 '3em'값을 가진 `padding` 스타일을 설정하세요.
