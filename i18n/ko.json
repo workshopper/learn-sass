@@ -10,7 +10,7 @@
     "imports": "가져오기(IMPORTS)",
     "mixins": "MIXINS",
     "mixin_content": "MIXIN CONTENT",
-    "extend_inheritance": "상속",
+    "extend_inheritance": "확장/상속",
     "operators": "연산자",
     "nested_properties": "중첩(스타일)",
     "parent_selector": "부모 선택자",

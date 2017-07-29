@@ -36,4 +36,4 @@ aside[role="complimentary"] {
 
 # 과제
 
-`1400px`값을 갖는 `$page-width` 변수와 `20px`값을 갖는 `$padding` 변수를 선언하세요. 그다음 `.container` 선택자를 만들고 `padding` 스타일을 추가해서 $padding 변수를 할당하고 `width` 스타일을 추가해서 `$page-width` 변수에 `0.8` 을 곱한 값에서  `$page-width`에 2를 곱한 값을 빼서 할당하세요.
+`1400px`값을 갖는 `$page-width` 변수와 `20px`값을 갖는 `$padding` 변수를 선언하세요. 그다음 `.container` 선택자를 만들고 `padding` 스타일을 추가해서 $padding 변수를 할당하고 `width` 스타일을 추가해서 `$page-width` 변수에 `0.8`을 곱한 값에서 `$page-width`에 2를 곱한 값을 빼서 할당하세요.
