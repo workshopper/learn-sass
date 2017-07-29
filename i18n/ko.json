@@ -1,0 +1,22 @@
+{
+  "title": "SASS 배우기",
+  "subtitle": "\u001b[23m시작하시려면 과제를 선택하시고 \u001b[3m엔터를\u001b[23m 누르세요",
+  "menu": {
+    "credits": "만든 사람들"
+  },
+  "exercise": {
+    "variables": "변수",
+    "nesting": "중첩(선택자)",
+    "imports": "가져오기(IMPORTS)",
+    "mixins": "MIXINS",
+    "mixin_content": "MIXIN CONTENT",
+    "extend_inheritance": "상속",
+    "operators": "연산자",
+    "nested_properties": "중첩(스타일)",
+    "parent_selector": "부모 선택자",
+    "interpolation": "삽입",
+    "each": "EACH 반복문",
+    "for_loop": "FOR 반복문",
+    "while_loop": "WHILE 반복문"
+  }
+}

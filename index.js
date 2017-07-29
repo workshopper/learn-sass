@@ -3,7 +3,7 @@ const workshopper = require('workshopper-adventure')
     , learnsass = workshopper({
         title       : 'Learn SASS'
       , appDir      : __dirname
-      , languages   : ['en', 'it', 'pt-br']
+      , languages   : ['en', 'it', 'pt-br', 'kr']
       , footer      : {
         file: path.join(__dirname, 'footer.{lang}.md')
       }
