@@ -14,7 +14,7 @@
     "operators": "연산자",
     "nested_properties": "중첩(스타일)",
     "parent_selector": "부모 선택자",
-    "interpolation": "삽입",
+    "interpolation": "문자열 보간",
     "each": "EACH 반복문",
     "for_loop": "FOR 반복문",
     "while_loop": "WHILE 반복문"
