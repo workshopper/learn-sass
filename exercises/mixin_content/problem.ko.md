@@ -31,4 +31,4 @@ mixin 내부의 스타일을 설정하는 방법으로, 스타일 블록을 통�
 
 # 과제
 
-이전 과제에서 만든 `border` mixin에 `@content` 지시어를 추가하세요. 그리고 이전 과제에서 만든 `img` 선택자에서 border를 `@include` 할 때, `@content`에 추가될 내용으로 `border-style` 스타일을 `solid`값으로 설정하세요.
+이전 과제에서 만든 `border-thickness` mixin에 `@content` 지시어를 추가하세요. 그리고 이전 과제에서 만든 `img` 선택자에서 border를 `@include` 할 때, `@content`에 추가될 내용으로 `border-style` 스타일을 `solid`값으로 설정하세요.

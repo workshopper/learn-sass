@@ -49,4 +49,4 @@ Sass의 강력한 기능 중 하나가 바로 확장과 상속입니다. `@exten
 
 # 과제
 
-`.push-button` 선택자에 `background-color: blue` 스타일을 추가한 뒤, .main-button 선택자가 그것을 상속받게 하세요. 그리고 추가로 .main-button 선택자에는 `font-weight: bold` 스타일도 설정해주세요.
+`.push-button` 선택자에 `background-color: blue` 스타일을 추가한 뒤, .main-button 선택자가 그것을 상속받게 하세요. 그리고 추가로 `.main-button` 선택자에는 `font-weight: bold` 스타일도 설정해주세요.
