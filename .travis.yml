@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - '7.4'
-  - '6.9'
+  - '8.2'
+  - '7.10'
+  - '6.11' # LTS
   - '5.12'
-  - '4.7'
 script: npm run test
