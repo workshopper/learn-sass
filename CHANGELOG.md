@@ -57,3 +57,6 @@
 ## v1.3.1
 - Restores support for localized solutions
 - Adds a localization howto
+
+## v1.4.0
+- Translated exercises to Korean, thanks to [@eunsucking](https://github.com/eunsucking)
