@@ -1,0 +1,22 @@
+{
+  "title": "LERN SASS",
+  "subtitle": "\u001b[23mWähle eine Übung und drücke \u001b[3mEnter\u001b[23m, um zu starten",
+  "menu": {
+    "credits": "CREDITS"
+  },
+  "exercise": {
+    "variables": "VARIABLES",
+    "nesting": "NESTING",
+    "imports": "IMPORTS",
+    "mixins": "MIXINS",
+    "mixin_content": "MIXIN CONTENT",
+    "extend_inheritance": "EXTEND/INHERITANCE",
+    "operators": "OPERATORS",
+    "nested_properties": "NESTED PROPERTIES",
+    "parent_selector": "PARENT SELECTOR",
+    "interpolation": "INTERPOLATION",
+    "each": "EACH ITERATOR",
+    "for_loop": "FOR LOOP",
+    "while_loop": "WHILE LOOP"
+  }
+}
