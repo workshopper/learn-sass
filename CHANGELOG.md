@@ -60,3 +60,6 @@
 
 ## v1.4.0
 - Translated exercises to Korean, thanks to [@eunsucking](https://github.com/eunsucking)
+
+## v1.5.0
+- Translated exercises to German, thanks to [@Maroel](https://github.com/Maroel)

@@ -56,9 +56,12 @@ You'll see the menu:
 
 Thanks to Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein for writing Sass, and to [Sam Richard](https://github.com/snugug) for evangelizing it.
 
-Brazilian Portuguese translation by [Nikolas Silva](https://github.com/nikolvs), Korean translation by [eunsucking](https://github.com/eunsucking).
+## Translations 
+* Brazilian Portuguese by [Nikolas Silva](https://github.com/nikolvs)
+* Korean by [@eunsucking](https://github.com/eunsucking)
+* German by [@Maroel](https://github.com/Maroel) for [informatica feminale](https://github.com/welcome-to-open-source/informatica-feminale)
 
-## License
+# License
 
 [MIT](http://opensource.org/licenses/MIT)
 
