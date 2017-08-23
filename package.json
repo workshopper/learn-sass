@@ -46,7 +46,7 @@
   "dependencies": {
     "after": "^0.8.2",
     "node-sass": "^4.1.0",
-    "workshopper-adventure": "^5.1.6",
+    "workshopper-adventure": "^6.0.2",
     "workshopper-exercise": "^2.7.0",
     "xtend": "^4.0.1"
   },
