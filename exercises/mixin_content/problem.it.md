@@ -7,14 +7,17 @@ Passare un blocco di contenuti ad un mixin
 Ad esempio:
 
 ```scss
-@mixin apply-to-ie6-only {
-  * html {
-    @content;
-  }
+$color: white;
+
+@mixin colors($new-color: blue) {
+  background-color: $new-color;
+  @content;
+  border-color: $new-color;
 }
-@include apply-to-ie6-only {
-  #logo {
-    background-image: url(/logo.gif);
+
+.colors {
+  @include colors { 
+    color: $color; 
   }
 }
 ```
@@ -22,9 +25,12 @@ Ad esempio:
 Genera:
 
 ```css
-* html #logo {
-  background-image: url(/logo.gif);
+.colors {
+  background-color: blue;
+  color: white;
+  border-color: blue;
 }
+
 ```
 
 Nota: quando la direttiva `@content` viene specificata più di una volta o all'interno di un ciclo, il blocco di stili sarà ripetuto a ciascuna invocazione.

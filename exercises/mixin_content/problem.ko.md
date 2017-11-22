@@ -7,14 +7,17 @@ mixin 내부의 스타일을 설정하는 방법으로, 스타일 블록을 통�
 예를 봅시다.
 
 ```scss
-@mixin apply-to-ie6-only {
-  * html {
-    @content;
-  }
+$color: white;
+
+@mixin colors($new-color: blue) {
+  background-color: $new-color;
+  @content;
+  border-color: $new-color;
 }
-@include apply-to-ie6-only {
-  #logo {
-    background-image: url(/logo.gif);
+
+.colors {
+  @include colors { 
+    color: $color; 
   }
 }
 ```
@@ -22,8 +25,10 @@ mixin 내부의 스타일을 설정하는 방법으로, 스타일 블록을 통�
 컴파일되는 CSS입니다.
 
 ```css
-* html #logo {
-  background-image: url(/logo.gif);
+.colors {
+  background-color: blue;
+  color: white;
+  border-color: blue;
 }
 ```
 

@@ -7,14 +7,17 @@ Passando blocos de conteúdo para o Mixin
 Por exemplo:
 
 ```scss
-@mixin apply-to-ie6-only {
-  * html {
-    @content;
-  }
+$color: white;
+
+@mixin colors($new-color: blue) {
+  background-color: $new-color;
+  @content;
+  border-color: $new-color;
 }
-@include apply-to-ie6-only {
-  #logo {
-    background-image: url(/logo.gif);
+
+.colors {
+  @include colors { 
+    color: $color; 
   }
 }
 ```
@@ -22,8 +25,10 @@ Por exemplo:
 Gera:
 
 ```css
-* html #logo {
-  background-image: url(/logo.gif);
+.colors {
+  background-color: blue;
+  color: white;
+  border-color: blue;
 }
 ```
 
