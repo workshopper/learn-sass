@@ -47,6 +47,9 @@
     "after": "^0.8.2",
     "cross-spawn": "^5.1.0",
     "node-sass": "^4.1.0",
+    "postcss": "^6.0.14",
+    "postcss-sorting": "^3.1.0",
+    "through2": "^2.0.3",
     "workshopper-adventure": "^5.1.6",
     "workshopper-exercise": "^2.7.0",
     "xtend": "^4.0.1"
