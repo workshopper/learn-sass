@@ -66,3 +66,8 @@
 
 ## v1.6.0
 - [#63](https://github.com/workshopper/learn-sass/pull/63) Improve description of mixin content exercise, by [@ManuCastrillonM](https://github.com/ManuCastrillonM)
+
+## v1.7.0
+- [#64](https://github.com/workshopper/learn-sass/pull/64) Sorts properties in rules with postcss-sorting
+- Creates .npmignore
+- Adds package-lock.json
