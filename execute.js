@@ -1,9 +1,17 @@
 // Based on workshopper-exercise/execute
-const spawn = require('cross-spawn')
-    , path  = require('path')
-    , fs    = require('fs')
-    , after = require('after')
-    , xtend = require('xtend')
+const spawn   = require('child_process').spawn
+    , path    = require('path')
+    , fs      = require('fs')
+    , after   = require('after')
+    , xtend   = require('xtend')
+    , postcss = require('postcss')
+    , sorting = require('postcss-sorting')
+    , through = require('through2')
+
+const sorter = postcss([sorting({
+  order: ['custom-properties', 'dollar-variables', 'declarations', 'rules', 'at-rules'],
+  'properties-order': 'alphabetical'
+})])
 
 function execute (exercise, opts) {
   if (!opts) opts = {}
@@ -14,8 +22,21 @@ function execute (exercise, opts) {
 
   // override if you want to mess with stdout
   exercise.getStdout = function (type, child) {
-    // type == 'submission' || 'solution'
-    return child.stdout
+    var buf = ''
+    return child.stdout.pipe(through(
+        function(chunk, enc, cb) {
+          buf += chunk
+          cb()
+        },
+        function(cb) {
+          const that = this
+          sorter
+            .process(buf.toString())
+            .then(function(result) {
+              that.push(result.css)
+              cb()
+            })
+        }))
   }
 
   exercise.getSolutionFiles = function (callback) {
