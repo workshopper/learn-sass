@@ -1,6 +1,6 @@
 {
   "name": "learn-sass",
-  "version": "1.3.1",
+  "version": "1.6.0",
   "description": "Learn SASS and SCSS through a workshopper adventure.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/claudiopro/learn-sass.git"
+    "url": "git+ssh://git@github.com/workshopper/learn-sass.git"
   },
   "keywords": [
     "sass",
@@ -33,14 +33,16 @@
   },
   "contributors": [
     "Claudio Procida <claudio.procida@gmail.com> (https://github.com/claudiopro)",
-    "Nikolas Silva (https://github.com/nikolassilva)",
-    "Martin Heidegger (https://github.com/martinheidegger)"
+    "Nikolas Silva (https://github.com/nikolvs)",
+    "Martin Heidegger (https://github.com/martinheidegger)",
+    "eunsucking (https://github.com/eunsucking)",
+    "Maroel (https://github.com/Maroel)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/claudiopro/learn-sass/issues"
+    "url": "https://github.com/workshopper/learn-sass/issues"
   },
-  "homepage": "https://github.com/claudiopro/learn-sass#readme",
+  "homepage": "https://github.com/workshopper/learn-sass#readme",
   "dependencies": {
     "after": "^0.8.2",
     "cross-spawn": "^5.1.0",
