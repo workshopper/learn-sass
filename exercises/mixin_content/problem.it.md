@@ -30,7 +30,6 @@ Genera:
   color: white;
   border-color: blue;
 }
-
 ```
 
 Nota: quando la direttiva `@content` viene specificata più di una volta o all'interno di un ciclo, il blocco di stili sarà ripetuto a ciascuna invocazione.
