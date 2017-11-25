@@ -63,3 +63,6 @@
 
 ## v1.5.0
 - Translated exercises to German, thanks to [@Maroel](https://github.com/Maroel)
+
+## v1.6.0
+- [#63](https://github.com/workshopper/learn-sass/pull/63) Improve description of mixin content exercise, by [@ManuCastrillonM](https://github.com/ManuCastrillonM)
