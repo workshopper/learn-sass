@@ -114,6 +114,14 @@ function execute (exercise, opts) {
 
     this.sassExec = path.resolve(__dirname, './node_modules/node-sass/bin/node-sass');
 
+    if(!fs.existsSync(this.sassExec)){
+      // Try another binary path (if installed without -g npm flag)
+      this.sassExec = path.resolve(__dirname, '../node-sass/bin/node-sass');
+
+      if(!fs.existsSync(this.sassExec))
+        throw new Error('Cold not locate node-sass binary. Did you install all the dependencies ?');
+    }
+
     this.submissionChild  = spawn(this.sassExec, this.submissionCommand, { env: this.env })
     this.submissionStdout = this.getStdout('submission', this.submissionChild)
 
